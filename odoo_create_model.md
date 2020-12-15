@@ -38,3 +38,4 @@ class Divisi(models.Model):
 
     partner_id = fields.Many2one(comodel_name='res.partner', string='ID Customer')
 ```
+Untuk memeriksa apakah model yang dibuat sudah masuk (asumsi telah dalam mode developer), maka kita dapat menuju ke menu Settings -> Technical -> Models. 
