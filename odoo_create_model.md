@@ -41,7 +41,7 @@ class Divisi(models.Model):
 Untuk memeriksa apakah model yang dibuat sudah masuk (asumsi telah dalam mode developer), maka kita dapat menuju ke menu Settings -> Technical -> Models. 
 
 ### Model Fields
-Model Fields berfungsi untuk mendefenisikan apa dan dimana model akan disimpan. seluruh isi dari model tergambar dalam model fields tersebut. Model fields terbagi menjadi dua yaitu:
+Model Fields berfungsi untuk mendefenisikan apa dan dimana model akan disimpan. seluruh isi dari model tergambar dalam model fields tersebut. Model fields dri sifat pengambilan datanya terbagi menjadi dua yaitu:
 #### 1. Simple Fields
 Simple fields merupakan field yang di deklarasikan dan disimpan dalam fields tersebut. Contoh beberapa penggunaan fields tersebut:
 ```
@@ -73,4 +73,19 @@ Relational fields merupakan field yang datanya terhubung dengan model yang sama 
         string='Divisi Satu Kategori'
     )
 ```
-
+Sementara itu jika dilihat pembuatannya terdapat dua sifat fields yaitu:
+#### a. fields yang tidak dideklarasikan (otomatis ada dalam model)
+Adapun fields yang otomatis ada dalam models disebut juga dengan **Reserved fields**. Berikut adalah semua field tersebut:
+**id (Id)**
+    The unique identifier for a record in its model.
+**create_date (Datetime)**
+    Creation date of the record.
+**create_uid (Many2one)**
+    User who created the record.
+**write_date (Datetime)**
+    Last modification date of the record.
+**write_uid (Many2one)**
+    user who last modified the record.
+    
+#### b. fields yang dideklarasikan
+Fields ini harus dideklarasikan dalam model yang akan dibuat agar dapat berjalan. adapun jenis-jenis field ini adalah selain dari Reserved fields sebelumnya.
