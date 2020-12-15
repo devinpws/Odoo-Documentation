@@ -58,3 +58,58 @@ mkdir nama_folder
 //example
 mkdir views
 ```
+
+Contoh file `__manifest__.py` :
+```
+# -*- coding: utf-8 -*-
+{
+    'name': "Testing Module",
+
+    'summary': """
+        Test module by Dev""",
+
+    'description': """
+        Long description of module's purpose
+    """,
+
+    'author': "Devin",
+    'website': "http://www.yourcompany.com",
+
+    # Categories can be used to filter modules in modules listing
+    # Check https://github.com/odoo/odoo/blob/13.0/odoo/addons/base/data/ir_module_category_data.xml
+    # for the full list
+    'category': 'Uncategorized',
+    'version': '0.1',
+
+    # any module necessary for this one to work correctly
+    'depends': ['base','board','sale',],
+
+    # always loaded
+    'data': [
+        # 'security/divisi_security.xml',
+        # 'security/ir.model.access.csv',
+        'views/menu.views.xml',
+        'views/divisi.views.xml',
+        'views/divisi_category.views.xml',
+        'views/res_partner_inh.views.xml',
+        'views/training.views.xml',
+        'views/sale.views.xml',
+        'views/wizard.views.xml',
+        # 'views/training_board.xml',
+        # 'report/report.xml',
+        
+    ],
+    # only loaded in demonstration mode
+    # 'demo': [
+    #     'demo/demo.xml',
+    # ],
+}
+```
+
+Contoh file `__init__.py` :
+```
+# -*- coding: utf-8 -*-
+
+from . import controllers
+from . import models
+```
