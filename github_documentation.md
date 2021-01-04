@@ -52,7 +52,7 @@ git add [name_file]
 git add alto_invoices_report
 ```
 
-##Git Commit
+## Git Commit
 Setelah file di add selanjutnya lakukan commit terhadap file tersebut menggunakan git commit.
 ```
 #git commit
@@ -62,7 +62,7 @@ git commit -m "Your comment about file"
 git commit -m "Add New Module"
 ```
 
-##Git Push
+## Git Push
 Setelah melakukan commit agar file dapat masuk ke dalam repository github lakukan push.
 
 ```
