@@ -1,7 +1,7 @@
 ---
 Title: Github Documentation
 Author: Devin Purnawansyah
-Date: 2020
+Date: 2021
 ---
 
 #Github Documentation
@@ -68,4 +68,6 @@ Setelah melakukan commit agar file dapat masuk ke dalam repository github lakuka
 ```
 git push -u origin master
 ```
+
+
 
