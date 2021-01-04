@@ -6,3 +6,4 @@ Repository ini adalah dokumentasi dalam belajar odoo:
 3. [Odoo 13 Create Models](odoo_create_model.md)
 4. [Github Documentation](github_documentation.md)
 5. [Report Tips & Tricks](report_tips.md)
+6. [Cron : Automated Actions in odoo](cron.md)
