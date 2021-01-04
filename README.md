@@ -5,3 +5,4 @@ Repository ini adalah dokumentasi dalam belajar odoo:
 2. [Odoo 13 Create Module](odoo_create_module.md)
 3. [Odoo 13 Create Models](odoo_create_model.md)
 4. [Github Documentation](github_documentation.md)
+5. [Report Tips & Tricks](report_tips.md)
