@@ -4,10 +4,10 @@ Author: Devin Purnawansyah
 Date: 2021
 ---
 
-#Cron
+# Cron
 Fungsi cron adalah untuk melakukan eksekusi suatu fungsi setiap menit, jam ataupun hari secara otomatis.
 
-##Cron Template Xml
+## Cron Template Xml
 Adapun template cron dalam xml adalah:
 ```
    <!-- sale.order cron -->
