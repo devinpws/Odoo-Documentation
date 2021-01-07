@@ -7,3 +7,4 @@ Repository ini adalah dokumentasi dalam belajar odoo:
 4. [Github Documentation](github_documentation.md)
 5. [Report Tips & Tricks](report_tips.md)
 6. [Cron : Automated Actions in odoo](cron.md)
+7. [Sequence in Odoo](sequence.md)
