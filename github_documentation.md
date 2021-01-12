@@ -24,6 +24,8 @@ sudo git clone https://github.com/devpws/Odoo-Documentation.git
 Git log digunakan untuk melihat history commit.
 ```
 git log
+
+#keluar dari git log klik q
 ```
 
 ## Git Status
